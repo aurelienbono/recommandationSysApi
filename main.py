@@ -14,7 +14,7 @@ app = FastAPI(
 # Define a GET operation
 @app.get("/")
 async def main():
-    return {"message": "Hello World"}
+    return {"message": "Hello World "}
 
 # Define a POST operation
 @app.post("/submit")
